@@ -5,6 +5,14 @@ export default Ember.Component.extend({
   actions: {
     imageShow: function() {
       this.set('isImageShowing', true);
+    },
+    imageHide: function() {
+      this.set('isImageShowing', false);
+    }
+    delete(post) {
+      if (confirm('Are you sure you want to delete this post?')) {
+        this.sendAction('destroyPost', post);
+      }
     }
   }
 });
