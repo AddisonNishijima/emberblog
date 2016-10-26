@@ -22,9 +22,9 @@
         <label for="description">Description</label>
         {{input value=description id="description" placeholder=post.description}}
       </div>
-      <button {{action 'update' post}}>Save</button>
+      <button class="btn btn-success"{{action 'update' post}}>Save</button>
   </form>
 </div>
 {{else}}
-  <button {{action 'updatePostForm'}}>Update</button>
+  <button class="btn btn-warning"{{action 'updatePostForm'}}>Update</button>
 {{/if}}

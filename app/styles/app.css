@@ -1,0 +1,89 @@
+body {
+  background-image: url('/images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-size: 17px;
+}
+
+.jumbotron h1 {
+  color: #b6cc2a;
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+  font-size: 80px;
+  font-family: 'Rock Salt', cursive;
+}
+
+ul {
+  background-color: rgba(150, 150, 150, 0.3);
+  padding: 20px;
+}
+
+.jumbotron {
+background-color: transparent;
+color: #b6cc2a;
+font-size: 30px;
+}
+
+h1, h2 {
+  color: #b6cc2a;
+  text-shadow: 2px 2px 4px black;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Rock Salt', cursive;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+a {
+  text-shadow: 2px 2px 4px black;
+  font-size: 20px;
+  color: #b6cc2a;
+}
+
+a:hover {
+  text-shadow: 2px 2px 4px black;
+  font-size: 20px;
+  color: white;
+}
+
+img {
+  height: 50%;
+  width: 50%;
+}
+
+#details {
+  color: #b6cc2a;
+  text-shadow: 2px 2px 4px black;
+  background-color: rgba(150, 150, 150, 0.3);
+  padding: 20px;
+}
+
+#moreinfo {
+  color: #e0b462;
+  text-shadow: 2px 2px 4px black;
+  text-align: center;
+  font-size: 30px;
+  background-color: rgba(150, 150, 150, 0.3);
+  }
+
+  #about, #contact, #new{
+    background-color: rgba(150, 150, 150, 0.3);
+    font-size: 20px;
+    text-shadow: 2px 2px 4px black;
+    color: #b6cc2a;
+    padding: 20px;
+  }
+
+  footer {
+    font-size: 20px;
+    text-shadow: 2px 2px 4px black;
+    color: #b6cc2a;
+  }

@@ -1,9 +1,11 @@
-{{post.day}}
-<br>
-{{post.topic}} AKA {{post.sciname}}
-<br>
-{{post.description}}
-<br>
-<p><img src={{post.image}} alt={{post.topic}}></p>
+<div id="details">
+  {{post.day}}
+  <br>
+  {{post.topic}} AKA {{post.sciname}}
+  <br>
+  {{post.description}}
+  <br>
+  <p><img src={{post.image}} alt={{post.topic}}></p>
 
-<button {{action 'delete' post}}>Delete</button>
+  <button class="btn btn-danger"{{action 'delete' post}}>Delete</button>
+</div>

@@ -1,8 +1,8 @@
 <li>
-  {{#link-to 'post' post.id}}{{post.day}}'s item on {{post.topic}} AKA {{post.sciname}} {{/link-to}}
+  {{#link-to 'post' post.id}}{{post.day}}'s item on the {{post.topic}} - {{post.sciname}} {{/link-to}}
   {{#if isImageShowing}}
     <p><img src={{post.image}} alt={{post.topic}} {{action 'imageHide'}}></p>
   {{else}}
-    <button {{action 'imageShow'}}>Image</button>
+    <!-- <button class="btn-sm btn-primary"{{action 'imageShow'}}>See One Here</button> -->
   {{/if}}
 </li>
