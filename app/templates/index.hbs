@@ -2,7 +2,7 @@
 
 <ul>
   {{#each model as |post|}}
-     <li>{{post.day}} - {{post.topic}} - {{post.sciname}} - {{post.description}}</li>
+     {{post-tile post=post}}
   {{/each}}
 </ul>
 
