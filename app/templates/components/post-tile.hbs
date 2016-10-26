@@ -1,8 +1,8 @@
 <li>
-  <li>{{post.day}} - {{post.topic}} - {{post.sciname}} - {{post.description}}</li>
+{{post.day}} - {{post.topic}} - {{post.sciname}} - {{post.description}}
   {{#if isImageShowing }}
-   <p><img src={{post.image}} alt={{post.topic}} {{action 'imageHide'}} ></p>
- {{else}}
-   <button {{action 'imageShow'}}>Show Image</button>
-  {{/if}}
+      <p><img src={{post.image}} alt={{post.description}} ></p>
+    {{else}}
+      <button {{action 'imageShow'}}>Show image</button>
+    {{/if}}
 </li>
