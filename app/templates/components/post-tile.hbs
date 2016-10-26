@@ -1,1 +1,8 @@
-{{yield}}
+<li>
+  <li>{{post.day}} - {{post.topic}} - {{post.sciname}} - {{post.description}}</li>
+  {{#if isImageShowing }}
+   <p><img src={{post.image}} alt={{post.topic}} {{action 'imageHide'}} ></p>
+ {{else}}
+   <button {{action 'imageShow'}}>Show Image</button>
+  {{/if}}
+</li>
