@@ -11,7 +11,7 @@
 
   <ul>
     {{#each post.comments as |comment|}}
-      {{comment-tile comment=comment}}
+      {{comment-tile comment=comment destroyComment="destroyComment"}}
     {{/each}}
   </ul>
 
