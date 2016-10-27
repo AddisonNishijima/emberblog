@@ -33,5 +33,12 @@
     "sciname": "Blah",
     "image": "http://s2.quickmeme.com/img/d6/d6a1143f571184db25f94613edd43b40af6d3a629221aba00d9efdcfef5efd84.jpg",
     "description": "Here is a basic introduction post. This blog contains information about geckos."
-  }]
-}
+    }],
+    "comments": [{
+      "author": "Andrea",
+      "content": "geckos rock"
+    }, {
+      "author": "Alex",
+      "content": "geckos are cool"
+    }]
+  }
