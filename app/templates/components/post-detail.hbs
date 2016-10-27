@@ -7,5 +7,12 @@
   <br>
   <p><img src={{post.image}} alt={{post.topic}}></p>
 
+  <h2> Reviews </h2>
+  <ul>
+    {{#each post.comments as |comment|}}
+      {{comment-tile comment=comment}}
+    {{/each}}
+  </ul>
+
   <button class="btn btn-danger"{{action 'delete' post}}>Delete</button>
 </div>
