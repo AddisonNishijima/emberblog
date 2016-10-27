@@ -9,10 +9,12 @@ export default Ember.Component.extend({
     saveComment() {
      var params = {
        author: this.get('author'),
-       content: this.get('content')
+       rating: this.get('rating'),
+       content: this.get('content'),
+       rental: this.get('rental')
      };
      this.set('addNewComment', false);
-     this.sendAction('saveComment', params);
+     this.sendAction('saveCommend', params);
    }
   }
 });
